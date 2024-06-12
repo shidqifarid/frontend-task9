@@ -1,0 +1,36 @@
+.container {
+    margin: 1rem;
+  }
+  
+  .movies {
+    margin: 5rem 0;
+    text-align: center;
+  }
+  
+  .moviesTitle {
+    margin-bottom: 1rem;
+    font-size: 2.44rem;
+    color: #090809;
+  }
+  
+  .movieContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+  @media (min-width: 768px) {
+    .movieContainer {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .container {
+      max-width: 1200px;
+      margin: 3rem auto;
+    }
+  }

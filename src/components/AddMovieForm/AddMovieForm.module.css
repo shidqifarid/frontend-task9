@@ -1,0 +1,80 @@
+.container {
+    margin: 5rem 1rem;
+    padding: 1rem;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+  }
+  
+  .formImage {
+    border-radius: 25px;
+    height: auto;
+    max-width: 100%;
+  }
+  
+  .formTitle {
+    font-size: 2.44rem;
+    text-align: center;
+    color: #090809;
+    margin-bottom: 1rem;
+    margin-top: 0;
+  }
+  
+  .formGroup {
+    display: flex;
+    margin-bottom: 1rem;
+    flex-direction: column;
+  }
+  
+  .formLabel {
+    margin-bottom: 1rem;
+    color: #090809;
+  }
+  
+  .formInput {
+    padding: 1rem 0.5rem;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid #64748b;
+  }
+  
+  .formInput:focus {
+    border: 1px solid #FA320A;
+  }
+  
+  .formButton {
+    padding: 0.8rem 2rem;
+    background-color: #FA320A;
+    color: #fff;
+    display: block;
+    border: none;
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 100%;
+  }
+  
+  @media (min-width: 992px) {
+    .container {
+      max-width: 1200px;
+      margin: 5rem auto;
+    }
+  
+    .form {
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+    }
+  
+    .forLeft {
+      display: block;
+      flex-basis: 60%;
+    }
+  
+    .formRight {
+      flex-basis: 40%;
+    }
+  }
